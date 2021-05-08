@@ -1,0 +1,301 @@
+/* Start  Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/* End Google Fonts */
+
+/* Start Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+}
+.col-1{
+    width:  8.333%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 24.999%;
+    float: left;
+}
+.col-4{
+    width: 33.332%;
+    float: left;
+}
+.col-5{
+   width: 41.665%;
+   float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.331%;
+    float: left;
+}
+.col-8{
+    width: 66.664%;
+    float: left;
+}
+.col-9{
+    width: 74.997%;
+    float: left;
+}
+.col-10{
+    width: 83.333%;
+    float: left;
+}
+.col-11{
+    width: 91.663%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+/* End Global CSS */
+
+/* Start Header Section */
+header{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 20px 0;
+}
+header img{
+    width: 100px;
+}
+/* End Header Section */
+
+/* Start Banner Section */
+.banner{
+        width: 100%;
+        float: left;
+        background: url(../img/banner.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        padding: 200px 0 100px; 
+    }
+.banner h1{
+    font-size: 58px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+ 
+.title-border{
+    width: 30%;
+    margin: 15px auto 20px;
+    height: 2px;
+    background: #15a4fa;
+}
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    color: #ffff;
+    background: transparent;
+    border: 2px solid #15a4fa;
+    border-radius: 3px;
+    width: 150px;
+    padding: 12px 14px;
+    text-align: center;
+    transition: .3s ease background; 
+}
+.btn:hover{
+    background: #15a4fa;
+
+}
+.banner .fa{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 200px;
+}
+/* End Banner Section */
+
+/* Start About Section */
+.about{
+    width: 100%;
+    float: left;
+    padding: 75px 0;
+    background: #f6f9f9;
+}
+.about h2{
+    text-align: center;
+    font-size: 36px;
+    color: #2d3950;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.about p{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 150px;
+}
+/* End About Section */
+
+/* Start Icon Section */
+.icon{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 60px 70px;
+}
+.icon .photo{
+    width: 80px;
+}
+.icon h3{
+    font-size: 18px;
+    color: #2d3950;
+    margin: 20px 0; 
+}
+.icon p{
+    font-size: 14px;
+    padding: 0 100px;
+}
+/* End Icon Section */
+
+/* Start Work Section */
+.work{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 75px 50px;
+}
+.work h2{
+    text-align: center;
+    font-size: 36px;
+    color: #2d3950;
+    font-weight: 400;
+}
+.work p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.work .happy{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px;
+}
+/* End Work Section */
+
+/* Start Stay Area */
+.stay{
+    width: 100%;
+    float: left;
+    background: url(../img/ft-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 50px 0 100px; 
+}
+.stay h2{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.stay p{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+.stay input{
+    width: 480px;
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    border : 2px solid #999999;
+    text-align: left;
+    padding: 18px 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.stay .cube{
+    height: 150px;
+    padding-bottom: 115px;
+} 
+.stay .special{
+    width: 20px;
+    height: 13px;
+    display: inline;
+    margin-left: 360px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+label{
+    color: #fff;
+    font-size: 12px;
+}
+.stay button{
+    display: block;
+    width: 115px;
+    text-align: center;
+    margin-left: 125px;
+    background: transparent;
+    border: 2px solid #15a4fa;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 2px;
+    transition: .3s ease background;
+}
+.stay button:hover{
+    background: #15a4fa;
+}
+/* End Stay Area  */
+
+/* Start Footer Area */
+footer{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    background: #f6f9f9;
+    
+}
+footer p{
+    font-size: 13px;
+    margin-top: 9px;
+    color: #b2b5ba;
+    padding: 0 90px;
+}
+footer .social{
+    width: 30%;
+    margin-left: 400px;
+    padding: 0 20px;
+}
+footer img{
+    width: 30px;
+   
+}
+/* End Footer Area */
