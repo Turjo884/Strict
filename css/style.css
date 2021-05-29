@@ -80,7 +80,7 @@ header{
     background: #f6f9f9;
     padding: 20px 0;
 }
-header img{
+.logo{
     width: 100px;
 }
 /* End Header Section */
@@ -154,10 +154,10 @@ header img{
     margin-bottom: 20px;
     font-weight: 400;
 }
-.about p{
+.about p{ 
     text-align: center;
-    font-size: 16px;
-    padding: 0 150px;
+    font-size: 18px;
+    padding: 0 30px;
 }
 /* End About Section */
 
@@ -165,20 +165,22 @@ header img{
 .icon{
     width: 100%;
     float: left;
-    text-align: center;
-    padding: 60px 70px;
+    padding: 75px 0px;
 }
 .icon .photo{
-    width: 80px;
+   display: block;
+   margin: 0 auto;
 }
 .icon h3{
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
     color: #2d3950;
-    margin: 20px 0; 
+    margin: 25px 0 10px; 
 }
 .icon p{
     font-size: 14px;
-    padding: 0 100px;
+    text-align: center;
+    padding: 0 30px;
 }
 /* End Icon Section */
 
@@ -187,7 +189,7 @@ header img{
     width: 100%;
     float: left;
     background: #f6f9f9;
-    padding: 75px 50px;
+    padding: 75px 0px;
 }
 .work h2{
     text-align: center;
