@@ -31,10 +31,7 @@ textarea, textarea{
     width: 33.332%;
     float: left;
 }
-.col-4-offset{
-    margin-left: 33.332%;
-    margin-right: 33.332%;
-}
+
 .col-5{
    width: 41.665%;
    float: left;
@@ -75,6 +72,11 @@ textarea, textarea{
     width: 100%;
     float: left;
 }
+.col-4-offset{
+    margin-left: 33.332%;
+    margin-right: 33.332%;
+}
+
 a{
     text-decoration: none;
 }
@@ -220,7 +222,7 @@ header{
     overflow: hidden;
     width: 360px;
     height: 260px;
-    margin:  0 auto 35px;
+    margin:  0 auto 22px;
 }
 .item-hover{
     position: absolute;
